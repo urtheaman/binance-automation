@@ -1,0 +1,37 @@
+.user-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.update {
+  margin-top: 2rem;
+  max-height: 15rem;
+  overflow-y: scroll;
+}
+
+.update,
+tr,
+td,
+th {
+  border: 0.2px solid #fff;
+  padding: 0.25rem 0.6rem;
+  border-collapse: collapse;
+}
+
+tbody tr:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+tbody tr:hover td {
+  color: #202020;
+}
+.update caption {
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: medium;
+  padding: 1rem 0;
+  border-top: 0.2px solid;
+  border-radius: 8px;
+}

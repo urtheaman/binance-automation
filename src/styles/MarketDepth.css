@@ -1,0 +1,47 @@
+.market-depth-container {
+  box-sizing: inherit;
+  width: 20rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: rgb(211, 211, 211);
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 0 1rem 1rem;
+  /* background: linear-gradient(to top, rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.04)); */
+  border-radius: 8px;
+}
+
+.spreadContainer {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+}
+
+.bidsDetails {
+  color: lightgreen;
+}
+.asksDetails {
+  color: red;
+}
+.bestSpread {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  justify-self: flex-end;
+}
+.bestSpread span:first-of-type {
+  color: lightgreen;
+  font-size: 1.2rem;
+}
+.bestSpread span:nth-of-type(2) {
+  color: red;
+  font-size: 1.2rem;
+}

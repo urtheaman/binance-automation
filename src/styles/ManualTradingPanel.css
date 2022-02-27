@@ -1,0 +1,52 @@
+.manual-trading-container {
+    box-sizing: border-box;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  border-top: 0.2px solid;
+  border-bottom: 0.2px solid;
+  padding: 1rem 0.6rem;
+  border-radius: 8px;
+  margin: 0.8rem 0 0;
+}
+.manual-trading-container .btns-container {
+  display: flex;
+  flex-direction: column;
+}
+.manual-trading-container .btns-container button {
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.manual-trading-container .ac-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+.manual-trading-container .btns-container .entry-div,
+.exit-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+}
+.entry-btn {
+    color: #fff;
+    background-color: lightgreen;
+}
+.entry-btn:hover {
+    color: lightgreen;
+    background-color: rgb(255, 255, 255);
+}
+.exit-btn {
+    color: #fff;
+    background-color: red;
+}
+.exit-btn:hover {
+    color: red;
+    background-color: #fff;
+}

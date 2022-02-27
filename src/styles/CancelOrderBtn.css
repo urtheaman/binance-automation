@@ -1,0 +1,9 @@
+.cancel-order {
+  border: none;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.781);
+  color: #fff;
+}

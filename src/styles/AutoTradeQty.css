@@ -1,0 +1,11 @@
+.qty-container {
+  width: 100%;
+}
+.qty-container input {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 6px;
+}

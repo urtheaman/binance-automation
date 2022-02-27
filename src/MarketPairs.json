@@ -1,0 +1,42 @@
+[
+  {
+    "pair": "BTCBUSD",
+    "pRound": 1,
+    "qRound": 3
+  },
+  {
+    "pair": "ETHBUSD",
+    "pRound": 2,
+    "qRound": 3
+  },
+  {
+    "pair": "BNBBUSD",
+    "pRound": 2,
+    "qRound": 2
+  },
+  {
+    "pair": "ADABUSD",
+    "pRound": 4,
+    "qRound": 0
+  },
+  {
+    "pair": "XRPBUSD",
+    "pRound": 4,
+    "qRound": 1
+  },
+  {
+    "pair": "DOGEBUSD",
+    "pRound": 5,
+    "qRound": 0
+  },
+  {
+    "pair": "SOLBUSD",
+    "pRound": 2,
+    "qRound": 0
+  },
+  {
+    "pair": "FTTBUSD",
+    "pRound": 3,
+    "qRound": 1
+  }
+]

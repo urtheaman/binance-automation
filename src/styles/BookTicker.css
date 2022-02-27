@@ -1,0 +1,33 @@
+.ticker-container {
+  width: 13rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0 0.8rem 0.8rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: calc(100% - 24rem);
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: linear-gradient(to top, rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.04)); */
+}
+.ticker {
+display: flex;
+justify-content: space-between;
+}
+
+.ticker-bid, .ticker-ask {
+  display: flex;
+  flex-direction: column;
+}
+.ticker-bid span:first-of-type {
+  font-size: 1.2rem;
+  color: lightgreen;
+}
+.ticker-ask span:first-of-type {
+  font-size: 1.2rem;
+  color: red;
+}

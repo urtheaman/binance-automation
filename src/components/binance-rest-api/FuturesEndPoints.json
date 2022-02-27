@@ -1,0 +1,207 @@
+{
+  "historicalTrades": {
+    "endPoint": "/fapi/v1/historicalTrades",
+    "method": "GET"
+  },
+  "userStreamCreate": {
+    "endPoint": "/fapi/v1/listenKey",
+    "method": "POST"
+  },
+  "userStreamKeepAlive": {
+    "endPoint": "/fapi/v1/listenKey",
+    "method": "PUT"
+  },
+  "userStreamClose": {
+    "endPoint": "/fapi/v1/listenKey",
+    "method": "DELETE"
+  },
+  "placeOrder": {
+    "endPoint": "/fapi/v1/order",
+    "method": "POST"
+  },
+  "placeMultipleOrders": {
+    "endPoint": "/fapi/v1/batchOrders",
+    "method": "POST"
+  },
+  "queryOrder": {
+    "endPoint": "/fapi/v1/order",
+    "method": "GET"
+  },
+  "cancelOrder": {
+    "endPoint": "/fapi/v1/order",
+    "method": "DELETE"
+  },
+  "cancelAllOrders": {
+    "endPoint": "/fapi/v1/allOpenOrders",
+    "method": "DELETE"
+  },
+  "cancelMultipleOrders": {
+    "endPoint": "/fapi/v1/batchOrders",
+    "method": "DELETE"
+  },
+  "countdownCancelAll": {
+    "endPoint": "/fapi/v1/countdownCancelAll",
+    "method": "POST"
+  },
+  "queryOpenOrder": {
+    "endPoint": "/fapi/v1/openOrder",
+    "method": "GET"
+  },
+  "allOpenOrders": {
+    "endPoint": "/fapi/v1/openOrders",
+    "method": "GET"
+  },
+  "allOrders": {
+    "endPoint": "/fapi/v1/allOrders",
+    "method": "GET"
+  },
+  "balance": {
+    "endPoint": "/fapi/v2/balance",
+    "method": "GET"
+  },
+  "accountInfo": {
+    "endPoint": "/fapi/v2/account",
+    "method": "GET"
+  },
+  "leverage": {
+    "endPoint": "/fapi/v1/leverage",
+    "method": "POST"
+  },
+  "marginType": {
+    "endPoint": "/fapi/v1/marginType",
+    "method": "POST"
+  },
+  "positionMargin": {
+    "endPoint": "/fapi/v1/positionMargin",
+    "history": {
+      "endPoint": "/fapi/v1/positionMargin/history"
+    },
+    "method": "POST"
+  },
+  "positionRisk": {
+    "endPoint": "/fapi/v2/positionRisk",
+    "method": "GET"
+  },
+  "userTrades": {
+    "endPoint": "/fapi/v1/userTrades",
+    "method": "GET"
+  },
+  "income": {
+    "endPoint": "/fapi/v1/income",
+    "method": "GET"
+  },
+  "leverageBracket": {
+    "endPoint": "/fapi/v1/leverageBracket",
+    "method": "GET"
+  },
+  "adlQuantile": {
+    "endPoint": "/fapi/v1/adlQuantile",
+    "method": "GET"
+  },
+  "forceOrders": {
+    "endPoint": "/fapi/v1/forceOrders",
+    "method": "GET"
+  },
+  "apiTradingStatus": {
+    "endPoint": "/fapi/v1/apiTradingStatus",
+    "method": "GET"
+  },
+  "commissionRate": {
+    "endPoint": "/fapi/v1/commissionRate",
+    "method": "GET"
+  },
+  "depth": {
+    "endPoint": "/fapi/v1/depth",
+    "method": "GET"
+  },
+  "ping": {
+    "endPoint": "/fapi/v1/ping",
+    "method": "GET"
+  },
+  "time": {
+    "endPoint": "/fapi/v1/time",
+    "method": "GET"
+  },
+  "exchangeInfo": {
+    "endPoint": "/fapi/v1/exchangeInfo",
+    "method": "GET"
+  },
+  "trades": {
+    "endPoint": "/fapi/v1/trades",
+    "method": "GET"
+  },
+  "aggTrades": {
+    "endPoint": "/fapi/v1/aggTrades",
+    "method": "GET"
+  },
+  "klines": {
+    "endPoint": "/fapi/v1/klines",
+    "method": "GET"
+  },
+  "continuousKlines": {
+    "endPoint": "/fapi/v1/continuousKlines",
+    "method": "GET"
+  },
+  "indexPriceKlines": {
+    "endPoint": "/fapi/v1/indexPriceKlines",
+    "method": "GET"
+  },
+  "markPriceKlines": {
+    "endPoint": "/fapi/v1/markPriceKlines",
+    "method": "GET"
+  },
+  "premiumIndex": {
+    "endPoint": "/fapi/v1/premiumIndex",
+    "method": "GET"
+  },
+  "fundingRate": {
+    "endPoint": "/fapi/v1/fundingRate",
+    "method": "GET"
+  },
+  "ticker": {
+    "24hr": {
+      "endPoint": "/fapi/v1/ticker/24hr"
+    },
+    "price": {
+      "endPoint": "/fapi/v1/ticker/price"
+    },
+    "bookTicker": {
+      "endPoint": "/fapi/v1/ticker/bookTicker"
+    },
+    "method": "GET"
+  },
+  "openInterest": {
+    "endPoint": "/fapi/v1/openInterest",
+    "method": "GET"
+  },
+  "data": {
+    "openInterestHist": {
+      "endPoint": "/futures/data/openInterestHist"
+    },
+    "topLongShortAccountRatio": {
+      "endPoint": "/futures/data/topLongShortAccountRatio"
+    },
+    "topLongShortPositionRatio": {
+      "endPoint": "/futures/data/topLongShortPositionRatio"
+    },
+    "globalLongShortAccountRatio": {
+      "endPoint": "/futures/data/globalLongShortAccountRatio"
+    },
+    "takerlongshortRatio": {
+      "endPoint": "/futures/data/takerlongshortRatio"
+    },
+    "method": "GET"
+  },
+  "lvtKlines": {
+    "endPoint": "/fapi/v1/lvtKlines",
+    "method": "GET"
+  },
+  "indexInfo": {
+    "endPoint": "/fapi/v1/indexInfo",
+    "method": "GET"
+  },
+  "assetIndex": {
+    "endPoint": "/fapi/v1/assetIndex",
+    "method": "GET"
+  }
+}
