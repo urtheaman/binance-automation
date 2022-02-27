@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import forge from "node-forge";
-import apiConfig from "../../secret/config.json";
+import apiConfig from "../../test-secret/config.json";
 
 const BinanceRestApi = (props) => {
   const {
