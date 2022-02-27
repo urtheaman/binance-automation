@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import UserData from "./components/binance-stream/functions/UserData";
+import Markets from "./Markets";
+import './styles/App.css'
+// import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+// import Home from "./Home";
+// import Navigation from "./Router/Navigation";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<Navigation />}>
+    //       <Route index element={<Home />} />
+    //       <Route path="markets" element={<Markets />} />
+    //       <Route path="trades" element={<UserData />} />
+    //     </Route>
+    //   </Routes>
+    // </Router>
+    <div className="app-container">
+      <Markets />
+      <UserData />
     </div>
   );
 }
-
-export default App;
